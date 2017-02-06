@@ -29,7 +29,6 @@
 		<title>Databases</title>
 	</head>
 	<body>
-		
 		<ul>
 		<?php
 			// 3. Katsotaan mitä query palautti takaisin
@@ -38,10 +37,10 @@
 				?><li><?php echo $row["menu_name"] . "<br />";
 				} ?></li>
 		<?php
-		
 		  // 4. vapautetaan data
 		  mysqli_free_result($result);
-		?></ul>
+		?>
+		</ul>
 	</body>
 </html>
 
