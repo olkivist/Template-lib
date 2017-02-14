@@ -1,0 +1,20 @@
+body {
+
+  font: 1.5em times;
+  background-color: lightgrey;
+}
+
+h1 {
+
+  font: 3em times;
+}
+
+.container {
+	background-color:  lightblue;
+	padding-bottom: 3em;
+}
+
+.row {
+	padding-left: 15px;
+}
+

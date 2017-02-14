@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="UTF-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="styles.css">
+    <title>CMS</title>
+  </head>
+  <body>
+
+  	<div class="container">
+    	
+    	<h1 id="myHeading">Content Management</h1><hr>
+    	<div class="row">
+		<button class="btn btn-default" id="toggleList">Hide list</button>
+		<button class="btn btn-default" id="createList">Create another list</button>
+    	</div>
+    	
+
+			<div class="list"><hr>
+				<p class="description">List of things</p>
+				<input type="text" class="description">
+				<button class="btn btn-default description">Change list description</button>
+				<ul>
+				</ul>
+				<input type="text" class="addItemInput">
+				<button class="addItemButton btn btn-default">Add item</button>
+				<button class="removeItemButton btn btn-default">Remove last item</button>
+			</div>
+
+			<div id="anotherList">
+			</div>
+
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="script.js"></script>
+  </body>
+</html>

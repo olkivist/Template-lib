@@ -8,12 +8,17 @@ const addItemButton = document.querySelector('button.addItemButton');
 const removeItemButton = document.querySelector('button.removeItemButton');
 const listItems = document.getElementsByTagName('li');
 
+const createListButton = document.getElementById('createList');
+
+
+
 // muuttaa targettia jos hiiren vie sen päälle
 listDiv.addEventListener('mouseover', (event) => {
 	if (event.target.tagName == 'LI') {
 	event.target.textContent = event.target.textContent.toUpperCase();
 	}
 });
+
 listDiv.addEventListener('mouseout', (event) => {
 	if (event.target.tagName == 'LI') {
 	event.target.textContent = event.target.textContent.toLowerCase();
@@ -52,6 +57,3 @@ removeItemButton.addEventListener('click', () => {
 	var li = document.querySelector('li:last-child');
 	ul.removeChild(li);
 });
-
-
-
